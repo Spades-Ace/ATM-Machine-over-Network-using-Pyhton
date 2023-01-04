@@ -115,7 +115,7 @@ class StartPage(tk.Frame):
         tk.Frame.__init__(self, parent, bg='#669900')
         self.controller = controller
 
-        self.controller.title('Campus Bank of LPU')
+        self.controller.title('Test Bank')
         self.controller.state('zoomed')
         self.controller.iconphoto(False,tk.PhotoImage(file='atm.png'))
 
